@@ -1,0 +1,16 @@
+@ECommerce.Api.Search_HostAddress = http://localhost:5109
+
+GET {{ECommerce.Api.Search_HostAddress}}/WeatherForecast
+Accept: application/json
+
+###
+
+POST {{ECommerce.Api.Search_HostAddress}}/api/search
+Content-Type: application/json
+Accept: application/json
+
+{
+  "customerId": 1
+}
+
+###
